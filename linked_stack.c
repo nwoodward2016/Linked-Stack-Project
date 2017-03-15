@@ -16,7 +16,6 @@ struct stack
 
 typedef struct stack Stack;
 
-
 STACK stack_init_default(void)
 {
 	Stack* pStack;
