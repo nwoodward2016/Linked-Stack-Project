@@ -68,7 +68,6 @@ Status stack_pop(STACK hStack)
 int stack_top(STACK hStack, Status* pStatus)
 {
 	Stack* pStack = (Stack*)hStack;
-
 	//if pStatus is NULL then ignore the status.
 	if (stack_empty(hStack))
 	{
@@ -76,7 +75,7 @@ int stack_top(STACK hStack, Status* pStatus)
 		{
 			*pStatus = FAILURE;
 		}
-		return -8887888;
+		return -88888888;
 	}
 	
 	if (pStatus != NULL)
